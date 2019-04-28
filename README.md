@@ -1,4 +1,4 @@
-# Telegraf, InfluxDB & Grafana on CentOS 7.x
+# Telegraf, InfluxDB & Grafana on CentOS 7.x (TBD)
 
 ### Overview
   * Telegraf
