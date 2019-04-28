@@ -1,4 +1,3 @@
-# tig-stack-and-automation
 # Telegraf, InfluxDB & Grafana on CentOS 7.x
 
 ### Overview
