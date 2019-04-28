@@ -61,15 +61,15 @@ Set up datasources
 *Configuration > Data Sources*
 ![data sources](images/datasources.png)
 
-* Azure Monitor
+* Data Source : Azure Monitor  
 [How to use Azure monitor in Grafana](https://grafana.com/docs/features/datasources/azuremonitor/)
 ![Azure Monitor](images/AzureMonitorConfig.png)
 
-* InfluxDB
+* Data Source : InfluxDB  
 [How to use InfluxDB in Grafana](https://grafana.com/docs/features/datasources/influxdb/)
 ![InfluxDB](images/influxdb.png)
 
-* Scheduled Event
+* Scheduled Event  
   [scheduled event for Linux VMs](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/scheduled-events)
   [Python script](scripts/scheduled_event_for_linux.py)
 
