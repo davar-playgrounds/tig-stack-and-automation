@@ -70,10 +70,10 @@ Set up datasources
 ![InfluxDB](images/influxdb.png)
 
 * Scheduled Event  
-  [scheduled event for Linux VMs](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/scheduled-events)
+  [scheduled event for Linux VMs](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/scheduled-events)  
   [Python script](scripts/scheduled_event_for_linux.py)
 
-  [scheduled event for Wiondows VMs](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/scheduled-events)
+  [scheduled event for Wiondows VMs](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/scheduled-events)  
   [PowerShell sample](scripts/scheduled_event_for_windows.ps)
 
 
