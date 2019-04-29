@@ -1,3 +1,5 @@
+`telegraf` `influxdb` `grafana` `azure` `aws` `cloud`
+
 # Telegraf, InfluxDB & Grafana
 
 ### Overview
@@ -64,20 +66,25 @@ Set up datasources
 *Configuration > Data Sources*
 ![data sources](images/datasources.png)
 
-* Data Source : Azure Monitor  
-[How to use Azure monitor in Grafana](https://grafana.com/docs/features/datasources/azuremonitor/)
-![Azure Monitor](images/AzureMonitorConfig.png)
-
 * Data Source : InfluxDB  
 [How to use InfluxDB in Grafana](https://grafana.com/docs/features/datasources/influxdb/)
 ![InfluxDB](images/influxdb.png)
+
+Set up datasources for Azure cloud
+* Data Source : Azure Monitor  
+[How to use Azure monitor in Grafana](https://grafana.com/docs/features/datasources/azuremonitor/)
+![Azure Monitor](images/AzureMonitorConfig.png)
 
 * Scheduled Event  
   [scheduled event for Linux VMs](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/scheduled-events)  
   [Python script](scripts/scheduled_event_for_linux.py)
 
-  [scheduled event for Wiondows VMs](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/scheduled-events)  
+  [scheduled event for Wiond3ows VMs](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/scheduled-events)  
   [PowerShell sample](scripts/scheduled_event_for_windows.ps)
+
+Set up datasources for AWS (#TODO)
+
+Set up datasources for GCP (#TODO)
 
 
 Create Dashboard
