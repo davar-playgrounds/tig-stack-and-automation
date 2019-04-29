@@ -1,4 +1,4 @@
-# Telegraf, InfluxDB & Grafana on CentOS 7.x (TBD)
+# Telegraf, InfluxDB & Grafana
 
 ### Overview
   * Telegraf
@@ -30,8 +30,11 @@
       write_consistency = "any"
       timeout = "5s"
     ```
+  * influxDB configuration
+  
 
-### Commands for services
+### Commands for services 
+Sample commands on CentOS
   * status
     ```
       sudo systemctl status influxdb
@@ -51,7 +54,7 @@
     ```
 
 ### Access
-  Grafana : http://the_grafana_server_ip_address:3000
+  Grafana : http://<the_grafana_server_ip_address>:3000
   - initial login with admin/admin
 
 
