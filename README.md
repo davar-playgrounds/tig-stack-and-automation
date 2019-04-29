@@ -1,4 +1,4 @@
-`telegraf` `influxdb` `grafana` `azure` `aws` `cloud`
+`telegraf` `influxdb` `grafana` `azure` `aws` `gcp` `cloud`
 
 # Telegraf, InfluxDB & Grafana
 
@@ -20,7 +20,7 @@
 
 
 ### Config
-  * telegraf configuration
+  * telegraf configuration  
     /etc/telegraf/telegraf.conf
 
     ```
@@ -66,25 +66,24 @@ Sample commands on CentOS
   *Configuration > Data Sources*
   ![data sources](images/datasources.png)
 
-1. Data Source : InfluxDB  
-[How to use InfluxDB in Grafana](https://grafana.com/docs/features/datasources/influxdb/)
-![InfluxDB](images/influxdb.png)
+  1. Data Source : InfluxDB  
+    [How to use InfluxDB in Grafana](https://grafana.com/docs/features/datasources/influxdb/)
+    ![InfluxDB](images/influxdb.png)
 
-2. Data Source : Azure Monitor
-* Data Source : Azure Monitor  
-[How to use Azure monitor in Grafana](https://grafana.com/docs/features/datasources/azuremonitor/)
-![Azure Monitor](images/AzureMonitorConfig.png)
+  2. Data Source : Azure Monitor  
+    [How to use Azure monitor in Grafana](https://grafana.com/docs/features/datasources/azuremonitor/)
+    ![Azure Monitor](images/AzureMonitorConfig.png)
 
-* Scheduled Event  
-  [scheduled event for Linux VMs](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/scheduled-events)  
-  [Python script](scripts/scheduled_event_for_linux.py)
+    * Scheduled Event  
+      [scheduled event for Linux VMs](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/scheduled-events)  
+      [Python script](scripts/scheduled_event_for_linux.py)
 
-  [scheduled event for Wiond3ows VMs](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/scheduled-events)  
-  [PowerShell sample](scripts/scheduled_event_for_windows.ps)
+      [scheduled event for Wiond3ows VMs](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/scheduled-events)  
+      [PowerShell sample](scripts/scheduled_event_for_windows.ps)
 
-3. Data Source : AWS Cloudwatch (#TODO)
+  3. Data Source : AWS Cloudwatch (#TODO)
 
-4. Data Source : GCP Stackdriver (#TODO)
+  4. Data Source : GCP Stackdriver (#TODO)
 
 
 * Create Dashboard  
