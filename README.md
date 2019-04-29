@@ -61,16 +61,16 @@ Sample commands on CentOS
 
 
 ### Setup Grafana Dashboard
-Set up datasources
+* Set up datasources
 
-*Configuration > Data Sources*
-![data sources](images/datasources.png)
+  *Configuration > Data Sources*
+  ![data sources](images/datasources.png)
 
-* Data Source : InfluxDB  
+1. Data Source : InfluxDB  
 [How to use InfluxDB in Grafana](https://grafana.com/docs/features/datasources/influxdb/)
 ![InfluxDB](images/influxdb.png)
 
-Set up datasources for Azure cloud
+2. Data Source : Azure Monitor
 * Data Source : Azure Monitor  
 [How to use Azure monitor in Grafana](https://grafana.com/docs/features/datasources/azuremonitor/)
 ![Azure Monitor](images/AzureMonitorConfig.png)
@@ -82,15 +82,15 @@ Set up datasources for Azure cloud
   [scheduled event for Wiond3ows VMs](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/scheduled-events)  
   [PowerShell sample](scripts/scheduled_event_for_windows.ps)
 
-Set up datasources for AWS (#TODO)
+3. Data Source : AWS Cloudwatch (#TODO)
 
-Set up datasources for GCP (#TODO)
+4. Data Source : GCP Stackdriver (#TODO)
 
 
-Create Dashboard
-* Import template id
+* Create Dashboard  
+  * Import template id
   [*linux host dashboard for grafana*](https://grafana.com/dashboards/2846)
   ![Linux System](images/linuxgrafana.png)
 
-* Create your own
+  * Create your own
 
