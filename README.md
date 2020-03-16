@@ -1,6 +1,6 @@
 `telegraf` `influxdb` `grafana` `azure` `aws` `gcp` `cloud`
 
-
+__*Terraform and Ansible script for automated setup is under "src"*__
 
 # Create new VM for TIG stack by using terraform
   * OS version : CentOS 7.5
