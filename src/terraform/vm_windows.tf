@@ -77,7 +77,7 @@ resource "azurerm_network_security_rule" "wmonitoring" {
     network_security_group_name = azurerm_network_security_group.wmonitoring.name
 }
 
- resource "azurerm_network_security_rule" "grafana" {
+ resource "azurerm_network_security_rule" "wgrafana" {
     name = "grafana"
     priority = 110
     direction = "Inbound"
@@ -88,5 +88,6 @@ resource "azurerm_network_security_rule" "wmonitoring" {
     source_address_prefix = var.client_ip
     destination_address_prefix = "*"
     resource_group_name = var.resource_group_name
-    network_security_group_name = azurerm_network_security_group.monitoring.name
+    network_security_group_name = azurerm_network_security_group.wmonitoring.name
 }
+
