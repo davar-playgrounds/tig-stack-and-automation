@@ -1,4 +1,4 @@
-`telegraf` `influxdb` `grafana` `azure` `aws` `gcp` `cloud`
+`telegraf` `influxdb` `grafana` `azure` `cloud`
 
 __*Terraform and Ansible script for automated setup is under "src"*__
 
